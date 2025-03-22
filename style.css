@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px; 
+}
+h1 {
+    color: rgb(219, 90, 20);
+}
+select, button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    background-color: rgb(219, 90, 20);
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: lightblue;
+}
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-size: large;
+    font-weight: bold; 
+    color: silver;
+}
