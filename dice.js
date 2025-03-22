@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 //Dice Function
 function rollDice(sides) {
   return Math.floor(Math.random() * sides) + 1;
@@ -14,4 +15,4 @@ rollButton.addEventListener('click', () => {
   //Display the result
   resultDiv.textContent = "You rolled a ${rollResult}";
 });
-
+});
