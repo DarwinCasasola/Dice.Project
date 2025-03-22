@@ -13,6 +13,6 @@ rollButton.addEventListener('click', () => {
   const rollResult = rollDice(diceSides);
 
   //Display the result
-  diceDiv.textContent = "You rolled a ${rollResult}";
+  diceDiv.textContent = 'You rolled a ${rollResult}';
 });
 });
