@@ -5,7 +5,7 @@ function rollDice(sides) {
 //DOM Elements
 const rollButton = document.getElementById('roll-button');
 const diceTypeSelect = document.getElementById('dice-type');
-const diceResult = document.getElementById('result');
+const diceDiv = document.getElementById('result');
 //Event Listener
 rollButton.addEventListener('click', () => {
   const diceSides = parseInt(diceTypeSelect.value);
