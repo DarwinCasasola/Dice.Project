@@ -3,8 +3,8 @@ function rollDice(sides) {
   return Math.floor(Math.random() * sides) + 1;
 }
 //DOM Elements
-const rollButton = document.getElementById('roll-button');
-const diceTypeSelect = document.getElementById('dice-type');
+const rollButton = document.getElementById('rollButton');
+const diceTypeSelect = document.getElementById('diceType');
 const diceDiv = document.getElementById('result');
 //Event Listener
 rollButton.addEventListener('click', () => {
