@@ -20,7 +20,7 @@ h1 {
 }
 select, button {
     margin: 10px;
-    padding: 5px;
+    padding: 8px;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
